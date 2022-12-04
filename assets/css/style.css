@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,26 +7,26 @@
 }
 
 
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(63, 69, 68);
+}
+
+/* heading and logo*/
+
+h1, h2 {
+    font-family: Archivo, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:rgb(81, 91, 143)
+}
+
 #logo {
-    height: auto;
-    left: 0px;
-    right: 0px;
     text-align: center;
-    display: block;
+    font-size: 300%;
 }
 
 
-#logoimage {
-    max-width: 35%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-}
-
-#menubar {
-    font-size: 140%;
-    letter-spacing: 7px;
-    text-transform: capitalize;
-
-}
 
