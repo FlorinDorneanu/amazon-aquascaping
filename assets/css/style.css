@@ -1,3 +1,30 @@
-body {
-font-family: arial;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+
+#logo {
+    height: auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    display: block;
+}
+
+
+#logoimage {
+    max-width: 35%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#menubar {
+    font-size: 140%;
+    letter-spacing: 7px;
+    text-transform: capitalize;
+
+}
+
