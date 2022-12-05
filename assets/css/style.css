@@ -14,19 +14,48 @@ body {
     color: rgb(63, 69, 68);
 }
 
+
 /* heading and logo*/
+
 
 h1, h2 {
     font-family: Archivo, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:rgb(81, 91, 143)
+    color:rgb(81, 91, 143);
 }
+
 
 #logo {
     text-align: center;
-    font-size: 300%;
+    font-size: 250%;
 }
 
 
+#fish-logo {
+    display: block;
+    text-align: center;
+    margin-block: 30px 0px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+/* navigation links */
+
+
+#menubar {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#menubar a {
+    color: rgb(81, 91, 143);
+    font-family: Archivo, sans-serif;
+}
 
