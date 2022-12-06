@@ -55,7 +55,25 @@ a {
 
 
 #menubar a {
-    color: rgb(81, 91, 143);
+    color: #0D324D;
     font-family: Archivo, sans-serif;
+}
+
+#menubar a:hover {
+    background-image: linear-gradient(to left top, #0D324D, #7F5A83);
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.7s;
+    padding: 15px;
+}
+
+/* hero image */
+
+#hero-image {
+    background: url(../images/fish-tank.png) no-repeat center center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 499px;
 }
 
